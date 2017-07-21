@@ -1,67 +1,26 @@
-<!DOCTYPE html>
 <html>
-
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Moritz157 : ">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <link rel="alternate" type="application/rss+xml"
-   title="RSS" href="http://moritz157.bplaced.net/feed.xml" />
-
-   	<meta name="theme-color" content="#b3b3ff">
-	<link rel="icon" sizes="16×16" href="logo.png">
-   
-    <title>Moritz157</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/moritz157">Auf GitHub ansehen</a>
-
-          <a href="index.html"><h1 id="project_title">Moritz157</h1></a>
-          <h2 id="project_tagline"><a href="index.html" class="active_link">Home</a> | <a href="hardware.html">Hardware</a> | <a href="software.html">Software</a></h2>
-
+    <head>
+        <title></title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300|Roboto:300" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header id="header">
+            <h1>Hey, nice to meet you!</h1>
+            <div id="learnMoreWrapper" onclick="learnMore()">
+                <h2>Learn more</h2>
+                <center><img id="arrow_down" src="assets/arrow_down.svg"></center>
+            </div>
         </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>Über mich</h1>
-        <p>Ich bin ein 13 Jahre alter (Hobby-)Soft-/Hardwareentwickler. Ich beschäftige mich hauptsächlich mit Arduino, Lego Mindstorms, Delphi, Maven/Glassfish/JavaEE, Spigot (Minecraft) und ein wenig mit HTML und co.</p>
-        <p>Mein Schwerpunkt liegt momentan jedoch im den Bereichen Arduino und Delphi.</p>
-        <h1>Kontakt</h1>
-        <a href="twitter.com/moritz157">Twitter</a><br>
-        <a href="https://plus.google.com/u/0/b/109788752364735949884/109788752364735949884/posts">Google+</a><br>
-        <a href="https://www.youtube.com/channel/UCMNOZ_ik9I2VaPAXMhIiNfg">Youtube</a>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <!--Twittericon-->
-        <a href="https://twitter.com/moritz157" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @moritz157</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        
-        <!--Google+ icon-->
-        <script type="text/javascript" src="http://apis.google.com/js/plusone.js">{lang: 'de', parsetags: 'explicit'}</script><g:plusone href="http://moritz157.github.io/" size="medium"></g:plusone><script type="text/javascript">gapi.plusone.go();</script>
-        
-        <!--Youtubebutton-->
-        <script src="https://apis.google.com/js/platform.js"></script>
-        <div class="g-ytsubscribe" data-channel="moritz157-7417@pages.plusgoogle.com" data-layout="default" data-count="default"></div>
-        
-        
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+        <section id="first-section">
+            <h1>About me</h1>
+            <p>I'm a German hobby-web-developer. Beside HTML-Frontends I also design backends with Node.js and mobile apps using cordova and ionic. Furthermore I'm familiar with database systems like Sql or MongoDB.</p>
+        </section>
+        <section id="second-section">
+            <h1>Mood analyzer</h1>
+            <p>Mood analyzer is a project I worked on at the hackathon "Jugend hackt Berlin 2016". The application analyzes the mood about a subject using Tweets with a specified hashtag. The Git-Repo can be found here: <a href="https://github.com/flawnn/MoodAnalyzer">https://github.com/flawnn/MoodAnalyzer</a></p>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="index.js"></script>
+    </body>
 </html>
